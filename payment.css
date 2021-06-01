@@ -1,0 +1,43 @@
+*{
+    box-sizing: content-box;
+}
+h1{
+    border-radius: 5px;
+    border: 2px solid teal;
+    background-color: teal;
+    text-align: center;
+    padding: 10px;
+    font-weight: 800;
+    font-family: cursive;
+    text-shadow: 4px 4px yellowgreen;
+}
+h3{
+    border-radius: 5px;
+    border: 2px solid lightsteelblue;
+    background-color: lightsteelblue;
+    padding: 10px;
+    font-family: cursive;
+}
+.back{
+    background-color: mediumaquamarine;
+}
+form{
+    background-color: lightgrey;
+}
+.paynow{
+    background-color: gold;
+    padding: 5px;
+    margin: 10px;
+    font-family: cursive;
+}
+.paynow:hover{
+    color: gray;
+    background-color: white;
+}
+.paynow:visited{
+    color: blue;
+    background-color: white;
+}
+body{
+    margin: 0px;
+}
