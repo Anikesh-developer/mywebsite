@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="android-chrome-192x192.png">  
+    <link rel="icon" type="image/png" sizes="16x16" href="android-chrome-192x192.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Anime World</title>
+</head>
+<body>
+    <header>
+        <h1>Anime duniya</h1>
+        <div class="item">
+            <div class="search box"><input type="search" name="search" id="search" placeholder="--Type Text--"><button> Search </button></div>
+        </div>
+    </header>
+    <nav>
+        <div class="parent">
+            <div class=" men-btn"><a  href="index.html">Home</a></div>
+            <div class="men-btn">
+                <select>
+                <!-- select your genre-->
+                <option value="">--Genre--</option>
+                <option value="">Action</option>
+                <option value="">slice of life</option>
+                </select>
+            </div>
+            <div class="men-btn"><a id="sub" target="_blank" href="subscription.html">Subscription</a></div>
+            <div class=" men-btn left"><a target="_blank" href="#">login/signup</a></div>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <h2><span> Anime section </span></h2>
+            <!-- Flickity HTML init -->
+                <div class="carousel"
+                    data-flickity='{ "freeScroll": true }'>
+                    <div class="carousel-cell"><a target="_blank" href="https://www9.gogoanimehub.tv/category/bleach"><img class="a"  src="img.jpg"></a>
+                        <h3 id="text">Bleach</h3>
+                    </div>
+                    <div class="carousel-cell"><a target="_blank" href="https://www9.gogoanimehub.tv/category/dragon-ball-z-dub"><img class="a"   src="dbz.jpg"></a>
+                        <h3 id="text" >Dragon Ball Z</h3>
+                    </div>
+                    <div class="carousel-cell"><a  target="_blank" href="https://www9.gogoanimehub.tv/category/blackclover"><img class="a"  src="908447.jpg"></a>
+                        <h3 id="text">Black Clover</h3>
+                    </div>
+                    <div class="carousel-cell"><a target="_blank" href="https://www9.gogoanimehub.tv/category/naruto"><img class="a"  src="stretched-1366-768-598846.jpg"></a>
+                        <h3 id="text">Naruto</h3>
+                    </div>
+                </div>        
+        </section>
+        <br>
+        <hr>
+        <section>
+            <h2> <span>Favourite</span></h2>
+            <!-- Flickity HTML init -->
+            <div class="carousel"
+                data-flickity='{ "freeScroll": true }'>
+                <div class="carousel-cell"><a target="_blank" href="https://www9.gogoanimehub.tv/category/dragon-ball-z-dub"><img class="p" width="20%" src="dbz.jpg"></a><h3 id="text">Dragon Ball Z</h3></div>
+                <div class="carousel-cell"><a target="_blank" href="https://www9.gogoanimehub.tv/category/naruto"><img class="p" width="20%" src="stretched-1366-768-598846.jpg"></a><h3 id="text">Naruto</h3></div>
+            </div>
+        </section>
+        <br>
+        <hr>
+        <section>
+            <h2><span>Video links </span></h2>
+            <!-- Flickity HTML init -->
+            <div class="carousel"
+                data-flickity='{ "freeScroll": true }'>
+                <div class="carousel-cell iframe-container"><iframe class="b" src="https://www.youtube.com/embed/hc8hW26vuI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="carousel-cell iframe-container-1"><video class="b"src="project video explanation.mp4" controls poster="595710.jpg"></video></div>
+            </div>
+        </section>
+        <br>
+        <hr>
+    </main>
+<!-- JavaScript -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
