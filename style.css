@@ -76,7 +76,7 @@ main{
     padding: 5px;
 }
 section h2{
-    padding-top: 50px;
+    padding-top: 20px;
 }
 section h2 span{
     background: rgb(244,241,9);
@@ -88,9 +88,6 @@ section h2 span{
 section{
     text-align: center;
     overflow: hidden;
-}
-img{
-    border: 5px solid goldenrod;
 }
 .a,.p,.b{
     float: left;
@@ -105,6 +102,21 @@ img{
 }
 .carousel{
     padding: 40px;
+}
+.anime{
+    background-image: url(s2.jpg);
+}
+.fav{
+    background-image: url(s1.jpg);   
+}
+.link{
+    background-image: url(s4.jpg);
+}
+.anime,.fav,.link{
+    background-size: 100%;
+    background-position:top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .carousel-cell {
     width: 66%;
@@ -136,7 +148,7 @@ img{
     left: 0;
     border: 0;
     width: 100%;
-    height: 66%;
+    height: 60%;
 }
 @media screen and (max-width:1200px) {
     h1{
